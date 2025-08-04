@@ -1,4 +1,4 @@
-# Blog Post Title
+# Leonard asta e primul blog
 
 Welcome to my blog! This is a new post where I share insights and updates.
 
