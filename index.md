@@ -1,13 +1,18 @@
 ---
 layout: default
-title: Home
 ---
 
-<h1>All Posts</h1>
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%Y-%m-%d" }})
-    </li>
-  {% endfor %}
-</ul>
+<div id="home-content">
+  <h1>{{ site.title }}</h1>
+  <p>{{ site.description }}</p>
+  
+  <div id="posts-list">
+    {% for post in site.posts %}
+      <article class="post-preview">
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <p class="post-excerpt">{{ post.excerpt }}</p>
+        <p class="post-date">{{ post.date | date: "%B %d, %Y" }}</p>
+      </article>
+    {% endfor %}
+  </div>
+</div>

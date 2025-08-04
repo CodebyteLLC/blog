@@ -1,1 +1,20 @@
-title: Codebyte Blog
+# Site settings
+title: Slash-Pulse Blog
+description: A blog about Slash-Pulse AI Model and its applications
+baseurl: '/blog'
+url: 'https://codebytellc.github.io'
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:year/:month/:day/:title/
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - LICENSE
+
+# Plugin settings
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
