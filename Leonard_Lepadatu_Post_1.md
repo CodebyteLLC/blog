@@ -1,25 +1,32 @@
 # Leonard asta e primul blog
 
-Welcome to my blog! This is a new post where I share insights and updates.
+Bine ai venit pe primul meu blog!  
+Aici vei găsi articole despre programare, tehnologie și experiențe personale.
 
-## Introduction
+## Cuprins
 
-In this article, we'll explore some interesting topics related to software development.
+- Introducere
+- Proiecte recente
+- Sfaturi pentru programatori
 
-## Key Points
+---
 
-- Markdown makes formatting easy.
-- Organize your thoughts with headings and lists.
-- Share code snippets for clarity.
+### Introducere
 
-## Example Code
+Salut! Sunt Leonard și acesta este primul meu post pe blog. Îmi place să explorez lumea tehnologiei și să împărtășesc ceea ce învăț.
 
-```javascript
-function greet(name) {
-  return `Hello, ${name}!`;
-}
-```
+### Proiecte recente
 
-## Conclusion
+- [Calculator simplu în Python](https://github.com/leonardlepadatu/calculator-python)
+- [Blog personal cu Markdown](https://github.com/leonardlepadatu/blog-markdown)
 
-Stay tuned for more updates and tips!
+### Sfaturi pentru programatori
+
+- Învață continuu
+- Scrie cod clar și documentat
+- Colaborează cu alți dezvoltatori
+
+---
+
+Mulțumesc că ai citit!  
+Revin curând cu noi articole.
