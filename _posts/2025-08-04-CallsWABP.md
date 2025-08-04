@@ -99,7 +99,7 @@ This isn’t just a technical UX concern. It’s a neuroscientific truth about h
 
 Because at Slash-Pulse, we don’t just build chatbots. We build Human AI Agents — and that includes understanding when a pause is a thought, and when it’s a problem.
 
-## ⏳ Why We're Holding Back
+## Why We're Holding Back
 
 Until Slash-Pulse’s voice pipeline — from STT to LLM to TTS — can operate consistently below 800ms, we’re choosing not to roll out voice call capability. Not because it’s technically impossible, but because conversation is more than API speed — it’s a brain-to-brain alignment ritual. And that ritual fails when silence exceeds the mind’s tolerance for uncertainty.
 
@@ -122,7 +122,7 @@ Until Slash-Pulse’s voice pipeline — from STT to LLM to TTS — can operate 
 | 5. TTS                           | 100–200ms (streamed)      | Fast TTS ... locally hosted                      |
 | 6. Return & buffer audio         | 50–100ms                  | Buffering audio early                            |
 
-### Total = ~500–900ms (Best Case)
+Total = ~500–900ms (Best Case)
 
 You can squeeze into sub-800ms, but only if:
 
@@ -220,7 +220,7 @@ We’ve already built:
 
 ---
 
-## 🚀 What’s Next (With Funding)
+## What’s Next (With Funding)
 
 With funding, we can:
 
@@ -237,8 +237,7 @@ We didn’t delay WhatsApp voice call support because we **lack the skills** —
 
 Every millisecond between user voice and AI reply is **a moment of judgment** — about competence, presence, and trust.
 
-> We believe silence should feel like thought — not failure.  
-> And until we can guarantee that, we won’t ship voice.
+### We believe silence should feel like thought — not failure. And until we can guarantee that, we won’t ship voice.
 
 ---
 
