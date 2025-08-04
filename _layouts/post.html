@@ -11,7 +11,7 @@ layout: default
   {% if page.image %}
   <div class="post-image-wrapper">
     <img
-      src="{{ page.image | relative_url }}"
+      src="{{ page.image | absolute_url }}"
       alt="{{ page.title }}"
       class="post-featured-image"
       style="width: 130px; height: auto"
