@@ -10,7 +10,12 @@ layout: default
     {% for post in site.posts %}
       <article class="post-preview">
         {% if post.image %}
-          <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="post-thumbnail">
+          <img 
+             src="{{ post.image | relative_url }}" 
+             alt="{{ post.title }}" 
+            class="post-thumbnail" 
+            style="width: 130px; height: auto;"
+          >
         {% endif %}
         <p class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></p>
         <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
