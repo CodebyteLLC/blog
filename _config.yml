@@ -6,6 +6,7 @@ url: 'https://codebytellc.github.io'
 
 # Build settings
 markdown: kramdown
+excerpt_separator: <!--more-->
 highlighter: rouge
 permalink: /:year/:month/:day/:title/
 
