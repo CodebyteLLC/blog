@@ -1,6 +1,7 @@
 ---
 title: First Post
 date: 2024-08-04
+author: PhD Leonard Lepadatu
 ---
 
 # First Post at Codebyte LLC - slash Pulse AI Chatbot model
