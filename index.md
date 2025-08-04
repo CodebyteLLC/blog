@@ -9,7 +9,10 @@ layout: default
   <div id="posts-list">
     {% for post in site.posts %}
       <article class="post-preview">
-        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        {% if post.image %}
+          <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="post-thumbnail">
+        {% endif %}
+        <p class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></p>
         <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
         <p class="post-date">{{ post.date | date: "%B %d, %Y" }}</p>
       </article>

@@ -2,6 +2,7 @@
 title: First Post
 date: 2024-08-04
 author: PhD Leonard Lepadatu
+image: /assets/images/tibi.jpeg
 ---
 
 Welcome to the Codebyte LLC blog! This is our first post, where we introduce the Pulse AI Chatbot model. Pulse is designed to help developers integrate intelligent conversational agents into their applications with ease.

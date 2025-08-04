@@ -8,6 +8,15 @@ layout: default
     <p class="post-date">{{ page.date | date: "%B %d, %Y" }}</p>
     <p class="post-author">{% if page.author %}{{ page.author}}{%endif %}</p>
   </header>
+  {% if page.image %}
+  <div class="post-image-wrapper">
+    <img
+      src="{{ page.image | relative_url }}"
+      alt="{{ page.title }}"
+      class="post-featured-image"
+    />
+  </div>
+  {% endif %}
 
   <div id="post-content">{{ content }}</div>
 
